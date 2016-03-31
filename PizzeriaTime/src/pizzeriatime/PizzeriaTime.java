@@ -21,6 +21,7 @@ public class PizzeriaTime {
 
     /**
      * @param args the command line arguments
+     * @throws java.io.IOException
      */
     public static void main(String[] args) throws IOException {
         console();
@@ -32,12 +33,17 @@ public class PizzeriaTime {
         String username = scanner.next();
         System.out.print("Please enter a contact number: ");
         int number = scanner.nextInt();
-        System.out.print("Enter your address: ");
-        String address = scanner.next();
+        System.out.print("Would you like your pizza delivered? (Y/N)");
+        String delivery = scanner.findInLine("Y");
+        String address = null;
+        if (delivery != null){
+            System.out.print("Enter your address: ");
+            address = scanner.next();
+        }
         System.out.println(String.format("%s, please check the below details "
                 + "are correct \r\n"
                 + "Contact Number: %d \r\n"
-                + "Address: %s \r\n", username, number, address));
+                + "Address: %s \r\n", username, number, (address==null?address:" NA")));
 
 //        Runtime runtime = Runtime.getRuntime();
 //        Process process = runtime.exec("ipconfig"); // you might need the full path
