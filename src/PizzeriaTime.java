@@ -6,11 +6,6 @@
 
 import javax.swing.*;
 import java.io.IOException;
-import java.lang.reflect.Array;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Scanner;
 import javax.swing.JFrame;
 
 /**
@@ -23,13 +18,15 @@ public class PizzeriaTime {
      * @param args the command line arguments
      * @throws java.io.IOException
      */
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException, ClassNotFoundException, InstantiationException, IllegalAccessException, UnsupportedLookAndFeelException{
         console();
     }
 
-    private static void console() throws IOException {
+    private static void console() throws IOException, ClassNotFoundException, InstantiationException, IllegalAccessException, UnsupportedLookAndFeelException{
 //        Scanner scanner = new Scanner(System.in);
         JFrame frame = new JFrame();
+        UIManager.setLookAndFeel( "com.sun.java.swing.plaf.nimbus.NimbusLookAndFeel");
+        SwingUtilities.updateComponentTreeUI(frame);
         String nameInput = JOptionPane.showInputDialog(frame, "Enter your name: ");
         String numberInput = JOptionPane.showInputDialog(frame, "Please enter a contact number: ");
         String addressInput = null;
@@ -59,7 +56,7 @@ public class PizzeriaTime {
                 "Pizzeria", JOptionPane.QUESTION_MESSAGE, null, getPizza(), getPizza()[1]);
         int pizzaPrice = (20 + deliveryCost);
         JOptionPane.showMessageDialog(frame, "Your " + pizzaSelection + " comes to $" + pizzaPrice
-                + " see ya soon :)");
+                + " see you soon");
         System.exit(0);
     }
 

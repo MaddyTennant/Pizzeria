@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01e36385-da61-4b4d-946e-4f3b2198e94b" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PizzeriaTime/build.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PizzeriaTime/build/built-jar.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PizzeriaTime/build/classes/.netbeans_automatic_build" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PizzeriaTime/build/classes/.netbeans_update_resources" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PizzeriaTime/build/classes/pizzeriatime/PizzeriaTime.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PizzeriaTime/manifest.mf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PizzeriaTime/nbproject/build-impl.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PizzeriaTime/nbproject/genfiles.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PizzeriaTime/nbproject/private/private.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PizzeriaTime/nbproject/private/private.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PizzeriaTime/nbproject/project.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PizzeriaTime/nbproject/project.xml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PizzeriaTime/src/pizzeriatime/PizzeriaTime.java" afterPath="$PROJECT_DIR$/src/PizzeriaTime.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PizzeriaTime.java" afterPath="$PROJECT_DIR$/src/PizzeriaTime.java" />
     </list>
     <ignored path="Pizzia.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,21 +29,11 @@
       <file leaf-file-name="PizzeriaTime.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/PizzeriaTime.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
+            <state relative-caret-position="223">
+              <caret line="56" column="45" selection-start-line="56" selection-start-column="45" selection-end-line="56" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JOptionPane.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/src.zip!/javax/swing/JOptionPane.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="471" column="25" selection-start-line="471" selection-start-column="25" selection-end-line="471" selection-end-column="25" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -575,12 +554,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1459551466309</updated>
-      <workItem from="1459551471238" duration="10179000" />
+      <workItem from="1459551471238" duration="11672000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10179000" />
+    <option name="totallyTimeSpent" value="11672000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="22" width="1260" height="734" extended-state="0" />
@@ -640,8 +619,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PizzeriaTime.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
+        <state relative-caret-position="223">
+          <caret line="56" column="45" selection-start-line="56" selection-start-column="45" selection-end-line="56" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
